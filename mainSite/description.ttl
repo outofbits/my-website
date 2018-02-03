@@ -1,0 +1,26 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX : <http://outofbits.com/>
+
+: 	a 							schema:WebSite ;
+	rdfs:label					"Homepage of outofbits."@en,
+								"Hauptseite von outofbits"@de ;
+	schema:name					"Homepage of outofbits."@en,
+								"Hauptseite von outofbits"@de ;
+	schema:description 			"This is the homepage of outofbits, where you can find further links like to the blog and protfolio."@en,
+								"Dies ist die Hauptseite von outofbits auf der weiterführende Links gefunden werden können, wie Blog oder Portfolio."@de ;
+	rdfs:comment				"This is the homepage of outofbits, where you can find further links like to the blog and protfolio."@en,
+								"Dies ist die Hauptseite von outofbits auf der weiterführende Links gefunden werden können, wie Blog oder Portfolio."@de ;
+	schema:typicalAgeRange		"14+" ;
+	schema:provider 			<http://kevin-haller.outofbits.com> ;
+	schema:accountablePerson	<http://kevin-haller.outofbits.com> ;
+	schema:author				<http://kevin-haller.outofbits.com> ;
+	schema:license				<http://creativecommons.org/licenses/by/4.0/> ;
+	schema:keywords				"web,coding,development,software,engineering,informatics,data,science,semantic,web,machine,learning"^^schema:Text ;
+	schema:isFamilyFriendly		true ;
+	schema:isAccessibleForFree 	true ;
+	schema:dateCreated			"2018-02-03"^^schema:Date ;
+	schema:dateModified			"2018-02-03"^^schema:Date ;
+	schema:datePublished		"2018-02-03"^^schema:Date .
+
+

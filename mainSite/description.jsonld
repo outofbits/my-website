@@ -1,0 +1,82 @@
+{
+  "@id" : "http://outofbits.com/",
+  "@type" : "schema:WebSite",
+  "accountablePerson" : "http://kevin-haller.outofbits.com",
+  "author" : "http://kevin-haller.outofbits.com",
+  "dateCreated" : "2018-02-03",
+  "dateModified" : "2018-02-03",
+  "datePublished" : "2018-02-03",
+  "description" : [ {
+    "@language" : "de",
+    "@value" : "Dies ist die Hauptseite von outofbits auf der weiterführende Links gefunden werden können, wie Blog oder Portfolio."
+  }, {
+    "@language" : "en",
+    "@value" : "This is the homepage of outofbits, where you can find further links like to the blog and protfolio."
+  } ],
+  "schema:isAccessibleForFree" : true,
+  "schema:isFamilyFriendly" : true,
+  "keywords" : "web,coding,development,software,engineering,informatics,data,science,semantic,web,machine,learning",
+  "license" : "http://creativecommons.org/licenses/by/4.0/",
+  "name" : [ {
+    "@language" : "de",
+    "@value" : "Hauptseite von outofbits"
+  }, {
+    "@language" : "en",
+    "@value" : "Homepage of outofbits."
+  } ],
+  "provider" : "http://kevin-haller.outofbits.com",
+  "typicalAgeRange" : "14+",
+  "@context" : {
+    "description" : {
+      "@id" : "http://schema.org/description"
+    },
+    "name" : {
+      "@id" : "http://schema.org/name"
+    },
+    "keywords" : {
+      "@id" : "http://schema.org/keywords",
+      "@type" : "http://schema.org/Text"
+    },
+    "license" : {
+      "@id" : "http://schema.org/license",
+      "@type" : "@id"
+    },
+    "datePublished" : {
+      "@id" : "http://schema.org/datePublished",
+      "@type" : "http://schema.org/Date"
+    },
+    "accountablePerson" : {
+      "@id" : "http://schema.org/accountablePerson",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://schema.org/Date"
+    },
+    "isFamilyFriendly" : {
+      "@id" : "http://schema.org/isFamilyFriendly",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "dateModified" : {
+      "@id" : "http://schema.org/dateModified",
+      "@type" : "http://schema.org/Date"
+    },
+    "isAccessibleForFree" : {
+      "@id" : "http://schema.org/isAccessibleForFree",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "typicalAgeRange" : {
+      "@id" : "http://schema.org/typicalAgeRange"
+    },
+    "provider" : {
+      "@id" : "http://schema.org/provider",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "@vocab" : "http://outofbits.com/"
+  }
+}
